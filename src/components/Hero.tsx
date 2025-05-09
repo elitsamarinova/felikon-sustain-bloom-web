@@ -63,11 +63,11 @@ const Hero = () => {
           
           <div className="lg:w-1/2 mt-12 lg:mt-0">
             <div className="relative">
-              {/* Main image */}
+              {/* Main image - replaced with solar panel image */}
               <div className="bg-white rounded-xl shadow-lg p-2 z-10 relative animate-float">
                 <img 
-                  src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Renewable Energy Solutions" 
+                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  alt="Solar Panel Installation" 
                   className="rounded-lg w-full h-auto"
                 />
                 
