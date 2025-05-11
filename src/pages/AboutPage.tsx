@@ -1,40 +1,31 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Leaf, Factory, BatteryFull, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
-
-const teamMembers = [
-  {
-    name: "Alexander Petrov",
-    title: "CEO & Founder",
-    bio: "With 15+ years in renewable energy markets, Alexander brings deep expertise in sustainability monetization.",
-    image: "https://i.pravatar.cc/300?img=11"
-  },
-  {
-    name: "Maria Ivanova",
-    title: "Chief Technology Officer",
-    bio: "Energy software expert pioneering solutions that turn data into profitable sustainability insights.",
-    image: "https://i.pravatar.cc/300?img=12"
-  },
-  {
-    name: "Stefan Dimitrov",
-    title: "Director of Consulting",
-    bio: "Former regulator with extensive knowledge of European RECs and sustainability compliance requirements.",
-    image: "https://i.pravatar.cc/300?img=13"
-  },
-  {
-    name: "Nina Georgieva",
-    title: "Head of Client Success",
-    bio: "Dedicated to ensuring our clients achieve measurable ROI from their sustainability initiatives.",
-    image: "https://i.pravatar.cc/300?img=14"
-  }
-];
-
+const teamMembers = [{
+  name: "Alexander Petrov",
+  title: "CEO & Founder",
+  bio: "With 15+ years in renewable energy markets, Alexander brings deep expertise in sustainability monetization.",
+  image: "https://i.pravatar.cc/300?img=11"
+}, {
+  name: "Maria Ivanova",
+  title: "Chief Technology Officer",
+  bio: "Energy software expert pioneering solutions that turn data into profitable sustainability insights.",
+  image: "https://i.pravatar.cc/300?img=12"
+}, {
+  name: "Stefan Dimitrov",
+  title: "Director of Consulting",
+  bio: "Former regulator with extensive knowledge of European RECs and sustainability compliance requirements.",
+  image: "https://i.pravatar.cc/300?img=13"
+}, {
+  name: "Nina Georgieva",
+  title: "Head of Client Success",
+  bio: "Dedicated to ensuring our clients achieve measurable ROI from their sustainability initiatives.",
+  image: "https://i.pravatar.cc/300?img=14"
+}];
 const AboutPage = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Navbar />
       
       {/* Hero Section */}
@@ -59,12 +50,7 @@ const AboutPage = () => {
               <h2 className="text-3xl font-display font-bold text-gray-900 mb-6">
                 Our Story
               </h2>
-              <p className="text-gray-600 mb-4">
-                Founded in 2008, Felikon began with a simple mission: to help businesses in Bulgaria harness the 
-                financial potential of renewable energy and sustainability initiatives. What started as a small 
-                consulting firm has grown into a comprehensive solution provider at the intersection of 
-                environmental responsibility and business profitability.
-              </p>
+              <p className="text-gray-600 mb-4">Founded in 2022, Felicon began with a simple mission: to help Bulgaria harness the financial potential of renewable energy and solar. What started as a small family-owned project has grown into a comprehensive solution provider at the intersection of environmental responsibility and business profitability.</p>
               <p className="text-gray-600 mb-4">
                 As the European renewable energy landscape evolved, so did we. We expanded our services to include 
                 cutting-edge software solutions that enable precise tracking, analysis, and optimization of energy 
@@ -79,11 +65,7 @@ const AboutPage = () => {
             
             <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
-                <img 
-                  src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Sustainable Landscape" 
-                  className="rounded-lg w-full h-auto"
-                />
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sustainable Landscape" className="rounded-lg w-full h-auto" />
               </div>
               <div className="absolute -z-10 bottom-6 -left-6 w-full h-full bg-primary/10 rounded-lg"></div>
             </div>
@@ -160,20 +142,14 @@ const AboutPage = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100">
-                <img 
-                  src={member.image} 
-                  alt={member.name}
-                  className="w-full h-64 object-cover object-center"
-                />
+            {teamMembers.map((member, index) => <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100">
+                <img src={member.image} alt={member.name} className="w-full h-64 object-cover object-center" />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
                   <p className="text-primary text-sm font-medium mb-4">{member.title}</p>
                   <p className="text-gray-600">{member.bio}</p>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -198,8 +174,6 @@ const AboutPage = () => {
       </section>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default AboutPage;
