@@ -21,7 +21,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-gray-900 mb-6 leading-tight">
-              Monetizing <span className="text-primary">Sustainability</span> Initiatives
+              Maximise <span className="text-primary">solar revenue</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-lg">
