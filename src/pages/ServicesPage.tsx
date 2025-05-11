@@ -4,10 +4,8 @@ import CTA from "@/components/CTA";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Leaf, Zap, FileChartColumnIncreasing, PanelTop, Factory, BatteryCharging, Rocket, TrendingUp } from "lucide-react";
-
 const ServicesPage = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Navbar />
       
       {/* Hero Section */}
@@ -17,9 +15,7 @@ const ServicesPage = () => {
             <h1 className="text-4xl sm:text-5xl font-display font-bold text-gray-900 mb-6 leading-tight">
               Our Services
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Comprehensive solutions to help you capitalize on sustainability opportunities.
-            </p>
+            <p className="text-xl text-gray-600 mb-8">Comprehensive solutions to help you capitalise on solar opportunities.</p>
           </div>
         </div>
       </section>
@@ -58,11 +54,7 @@ const ServicesPage = () => {
             
             <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
-                <img 
-                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Solar Panel Optimization" 
-                  className="rounded-lg w-full h-auto"
-                />
+                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Solar Panel Optimization" className="rounded-lg w-full h-auto" />
               </div>
               <div className="absolute -z-10 top-6 -left-6 w-full h-full bg-primary/10 rounded-lg"></div>
             </div>
@@ -76,11 +68,7 @@ const ServicesPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
-                <img 
-                  src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Financial Technology Solutions" 
-                  className="rounded-lg w-full h-auto"
-                />
+                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Financial Technology Solutions" className="rounded-lg w-full h-auto" />
               </div>
               <div className="absolute -z-10 bottom-6 -right-6 w-full h-full bg-secondary/10 rounded-lg"></div>
             </div>
@@ -155,11 +143,7 @@ const ServicesPage = () => {
             
             <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
-                <img 
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Energy Monitoring Software" 
-                  className="rounded-lg w-full h-auto"
-                />
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Energy Monitoring Software" className="rounded-lg w-full h-auto" />
               </div>
               <div className="absolute -z-10 top-6 -left-6 w-full h-full bg-primary/10 rounded-lg"></div>
             </div>
@@ -173,11 +157,7 @@ const ServicesPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
-                <img 
-                  src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Monetization Strategies" 
-                  className="rounded-lg w-full h-auto"
-                />
+                <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Monetization Strategies" className="rounded-lg w-full h-auto" />
               </div>
               <div className="absolute -z-10 bottom-6 -right-6 w-full h-full bg-secondary/10 rounded-lg"></div>
             </div>
@@ -290,8 +270,6 @@ const ServicesPage = () => {
       
       <CTA />
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default ServicesPage;
