@@ -20,16 +20,14 @@ const About = () => {
           <div className="lg:w-1/2 lg:pr-12 mb-10 lg:mb-0">
             <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-3 z-10 relative">
-                <img src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Renewable Energy Solutions" className="rounded-lg w-full h-auto" />
+                <img alt="Renewable Energy Solutions" className="rounded-lg w-full h-auto" src="/lovable-uploads/ed58be0b-c20d-4836-8059-5b803861c758.jpg" />
               </div>
               <div className="absolute -z-10 top-6 -right-6 w-full h-full bg-primary/10 rounded-lg"></div>
             </div>
           </div>
           
           <div className="lg:w-1/2 lg:pl-12">
-            <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-6">
-              Building a Sustainable Future for Bulgaria and Beyond
-            </h2>
+            <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-6">Powering the Energy Transition for Bulgaria and Beyond</h2>
             
             <p className="text-gray-600 mb-6">Felicon is a premier renewable energy software and consulting firm based in Bulgaria, specialising in helping businesses monetise solar initiatives across Europe.</p>
             
