@@ -8,9 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-display font-bold text-secondary">
-                Feli<span className="text-primary">con</span>
-              </span>
+              <img 
+                src="/lovable-uploads/77286e81-727a-4c17-ad2d-d43ed92a27bd.png" 
+                alt="Felicon logo" 
+                className="h-10 object-contain"
+              />
             </div>
             <p className="text-gray-600 mb-4">Pioneering sustainable energy solutions and monetisation opportunities in Bulgaria and across Europe.</p>
             <div className="flex space-x-4">
