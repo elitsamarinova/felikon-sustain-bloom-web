@@ -1,10 +1,8 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Leaf, Factory, BatteryFull, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
-
 const AboutPage = () => {
   return <div className="min-h-screen">
       <Navbar />
@@ -110,9 +108,7 @@ const AboutPage = () => {
               <h2 className="text-3xl font-display font-bold mb-6">
                 Ready to Monetize Your Sustainability Initiatives?
               </h2>
-              <p className="text-xl text-white/80 mb-8">
-                Contact our team to discover how Felikon can help transform your sustainability efforts into profitable ventures.
-              </p>
+              <p className="text-xl text-white/80 mb-8">Contact our team to discover how Felicon can help transform your sustainability efforts into profitable ventures.</p>
               <Button size="lg" variant="secondary" className="bg-white text-secondary hover:bg-white/90">
                 <Link to="/contact">Get In Touch</Link>
               </Button>
