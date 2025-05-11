@@ -52,11 +52,7 @@ const AboutPage = () => {
               </h2>
               <p className="text-gray-600 mb-4">Founded in 2022, Felicon began with a simple mission: to help Bulgaria harness the financial potential of renewable energy and solar. What started as a small family-owned project has grown into a comprehensive solution provider at the intersection of environmental responsibility and business profitability.</p>
               <p className="text-gray-600 mb-4">As the European renewable energy landscape evolved, so did we. We expanded our services to include cutting-edge software solutions that enable precise tracking, analysis, and optimization of energy assets.</p>
-              <p className="text-gray-600 mb-4">
-                Today, we're proud to help organizations across Bulgaria and Europe transform their sustainability 
-                challenges into profitable opportunities, ensuring that doing good for the planet also means doing 
-                well for business.
-              </p>
+              <p className="text-gray-600 mb-4">Today, we're proud to help organizations across Bulgaria and Europe transform their solar management challenges into profitable opportunities, ensuring that doing good for the planet also means doing well for business.</p>
             </div>
             
             <div className="relative">
