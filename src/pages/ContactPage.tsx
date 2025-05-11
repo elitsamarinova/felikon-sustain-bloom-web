@@ -1,6 +1,8 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+
 const ContactPage = () => {
   return <div className="min-h-screen">
       <Navbar />
@@ -15,9 +17,10 @@ const ContactPage = () => {
         </div>
       </section>
       
+      {/* Contact Section - Moved above map section */}
       <Contact />
       
-      {/* Map Section */}
+      {/* Map Section - Now below contact section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
