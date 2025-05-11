@@ -50,7 +50,7 @@ const Hero = () => {
                 </div>
                 <p className="ml-3 text-sm text-gray-600">
                   <span className="font-semibold text-gray-900 block">Put solar management</span>
-                  on autopilot
+                  Automate solar management and optimise performance
                 </p>
               </div>
             </div>
