@@ -49,8 +49,8 @@ const Hero = () => {
                   <Factory className="h-6 w-6 text-primary" />
                 </div>
                 <p className="ml-3 text-sm text-gray-600">
-                  <span className="font-semibold text-gray-900 block">Solar panel Management</span>
-                  and revenue optimisation strategies
+                  <span className="font-semibold text-gray-900 block">Put solar management</span>
+                  on autopilot
                 </p>
               </div>
             </div>
