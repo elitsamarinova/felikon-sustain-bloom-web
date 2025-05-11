@@ -21,9 +21,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center h-full">
             <img 
-              src="/lovable-uploads/5cd22f8f-d2b7-4402-9ec7-db13652b18e1.png" 
+              src="/lovable-uploads/ef0fe45a-f18b-4ed2-89b7-7cfb0aec2531.png" 
               alt="Felicon logo" 
-              className="h-10 sm:h-12 md:h-16 object-contain my-auto" 
+              className="h-8 sm:h-10 md:h-12 object-contain my-auto" 
             />
           </Link>
           
