@@ -12,20 +12,20 @@ const services = [
     link: "/services#rec"
   },
   {
-    title: "Sustainability Consulting",
-    description: "Strategic guidance to identify, develop and monetize sustainability initiatives across your organization.",
+    title: "Planning and Permits Consulting",
+    description: "Navigate lengthy approval processes (2-5 years in countries like Germany), inconsistent EU regulations, NIMBY issues, and complex environmental impact assessments.",
     icon: <FileChartColumnIncreasing className="h-6 w-6 text-primary" />,
     link: "/services#consulting"
   },
   {
-    title: "Energy Monitoring Software",
-    description: "Cutting-edge software solutions that track, analyze and optimize energy consumption and renewable production.",
+    title: "AI-powered Performance Optimization Tools",
+    description: "Leverage AI-driven cleaning scheduling, robotic cleaning systems, panel-level monitoring, and solar tracking systems optimized for European latitudes.",
     icon: <Zap className="h-6 w-6 text-primary" />,
     link: "/services#software"
   },
   {
-    title: "Monetization Strategies",
-    description: "Comprehensive approaches to transform sustainability efforts into tangible financial benefits and market advantages.",
+    title: "Grid Connection & Integration",
+    description: "Solutions for limited grid capacity in rural areas, expensive connection costs, constraints during peak generation, and balancing intermittent generation with grid demands.",
     icon: <PanelTop className="h-6 w-6 text-primary" />,
     link: "/services#monetization"
   }
