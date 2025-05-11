@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Leaf } from "lucide-react";
 const Footer = () => {
@@ -11,7 +10,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/77286e81-727a-4c17-ad2d-d43ed92a27bd.png" 
                 alt="Felicon logo" 
-                className="h-14 object-contain"
+                className="h-20 object-contain"
               />
             </div>
             <p className="text-gray-600 mb-4">Pioneering sustainable energy solutions and monetisation opportunities in Bulgaria and across Europe.</p>
