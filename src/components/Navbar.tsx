@@ -2,9 +2,11 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -13,25 +15,26 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center">
-            <img src="/lovable-uploads/77286e81-727a-4c17-ad2d-d43ed92a27bd.png" alt="Felicon logo" className="h-12 sm:h-16 object-contain" />
+          <Link to="/" className="flex items-center h-full">
+            <img src="/lovable-uploads/77286e81-727a-4c17-ad2d-d43ed92a27bd.png" alt="Felicon logo" className="h-12 sm:h-16 object-contain my-auto" />
           </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-primary font-medium transition-colors">
+            <Link to="/" className="text-gray-700 hover:text-primary font-medium transition-colors py-2">
               Home
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-primary font-medium transition-colors">
+            <Link to="/about" className="text-gray-700 hover:text-primary font-medium transition-colors py-2">
               About
             </Link>
-            <Link to="/services" className="text-gray-700 hover:text-primary font-medium transition-colors">
+            <Link to="/services" className="text-gray-700 hover:text-primary font-medium transition-colors py-2">
               Services
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-primary font-medium transition-colors">
+            <Link to="/contact" className="text-gray-700 hover:text-primary font-medium transition-colors py-2">
               Contact
             </Link>
             <Button variant="default" size="sm" className="bg-primary hover:bg-primary/90">
@@ -74,4 +77,5 @@ const Navbar = () => {
       </div>
     </nav>;
 };
+
 export default Navbar;
