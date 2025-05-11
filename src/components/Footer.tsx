@@ -1,7 +1,5 @@
-
 import { Link } from "react-router-dom";
 import { Leaf } from "lucide-react";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return <footer className="bg-gray-50 pt-16 pb-8">
@@ -9,11 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <img 
-                src="/lovable-uploads/ef0fe45a-f18b-4ed2-89b7-7cfb0aec2531.png" 
-                alt="Felicon logo" 
-                className="h-12 md:h-16 object-contain"
-              />
+              <img src="/lovable-uploads/ef0fe45a-f18b-4ed2-89b7-7cfb0aec2531.png" alt="Felicon logo" className="h-8 md:h-10 object-contain" />
             </div>
             <p className="text-gray-600 mb-4">Pioneering sustainable energy solutions and monetisation opportunities in Bulgaria and across Europe.</p>
           </div>
