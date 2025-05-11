@@ -50,9 +50,7 @@ const Contact = () => {
             <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-4">
               Get In Touch
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Discover how Felikon can help you monetize your sustainability initiatives.
-            </p>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">Discover how Felicon can help you monetise your solar initiatives.</p>
           </div>
           
           <div className="bg-white rounded-xl shadow-sm p-6 md:p-10 border border-gray-100">
