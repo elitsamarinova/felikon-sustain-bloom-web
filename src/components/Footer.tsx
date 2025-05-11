@@ -8,9 +8,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/77286e81-727a-4c17-ad2d-d43ed92a27bd.png" 
+                src="/lovable-uploads/5cd22f8f-d2b7-4402-9ec7-db13652b18e1.png" 
                 alt="Felicon logo" 
-                className="h-20 object-contain"
+                className="h-16 md:h-20 object-contain"
               />
             </div>
             <p className="text-gray-600 mb-4">Pioneering sustainable energy solutions and monetisation opportunities in Bulgaria and across Europe.</p>
