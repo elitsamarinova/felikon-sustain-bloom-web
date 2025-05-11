@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <span className="text-2xl font-display font-bold text-secondary">
-                Feli<span className="text-primary">kon</span>
+                Feli<span className="text-primary">con</span>
               </span>
             </div>
             <p className="text-gray-600 mb-4">Pioneering sustainable energy solutions and monetisation opportunities in Bulgaria and across Europe.</p>
