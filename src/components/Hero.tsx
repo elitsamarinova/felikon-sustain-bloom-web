@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-gray-900 mb-6 leading-tight">
-              Maximise <span className="text-primary">solar revenue</span>
+              Maximise <span className="text-primary">Solar Revenue</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-lg">Felicon helps businesses in Europe transform solar management challenges into profitable opportunities with innovative software and expert consulting.</p>
