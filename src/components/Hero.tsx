@@ -1,11 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Leaf, TrendingUp, Factory } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <div className="relative bg-gradient-to-br from-white to-gray-50 pt-20 pb-16 overflow-hidden">
+  return <div className="relative bg-gradient-to-br from-white to-gray-50 pt-20 pb-16 overflow-hidden">
       <div className="hero-pattern absolute inset-0 z-0"></div>
       
       {/* Decorative floating elements */}
@@ -24,10 +21,7 @@ const Hero = () => {
               Maximise <span className="text-primary">solar revenue</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 max-w-lg">
-              Felikon helps businesses in Bulgaria and Europe transform sustainability challenges into 
-              profitable opportunities with innovative software and expert consulting.
-            </p>
+            <p className="text-xl text-gray-600 mb-8 max-w-lg">Felicon helps businesses in Europe transform solar management challenges into profitable opportunities with innovative software and expert consulting.</p>
             
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90">
@@ -65,11 +59,7 @@ const Hero = () => {
             <div className="relative">
               {/* Main image - replaced with solar panel image */}
               <div className="bg-white rounded-xl shadow-lg p-2 z-10 relative animate-float">
-                <img 
-                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Solar Panel Installation" 
-                  className="rounded-lg w-full h-auto"
-                />
+                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Solar Panel Installation" className="rounded-lg w-full h-auto" />
                 
                 {/* Stats card */}
                 <div className="absolute -bottom-6 -right-6 bg-white rounded-lg shadow-lg p-4 w-48">
@@ -94,8 +84,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Hero;
