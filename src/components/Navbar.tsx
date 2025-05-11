@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center h-full">
-            <img src="/lovable-uploads/ef0fe45a-f18b-4ed2-89b7-7cfb0aec2531.png" alt="Felicon logo" className="h-6 sm:h-8 md:h-10 my-auto object-scale-down" />
+            <img src="/lovable-uploads/ef0fe45a-f18b-4ed2-89b7-7cfb0aec2531.png" alt="Felicon logo" className="h-4 sm:h-8 md:h-10 my-auto object-scale-down" />
           </Link>
           
           {/* Desktop Navigation */}
