@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
@@ -25,46 +24,43 @@ const ServicesPage = () => {
         </div>
       </section>
       
-      {/* REC Section */}
-      <section id="rec" className="py-16 bg-white">
+      {/* Performance Optimization Section */}
+      <section id="optimization" className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-flex items-center rounded-full bg-primary/10 px-4 py-1 mb-6">
-                <Leaf className="h-4 w-4 text-primary mr-2" />
-                <span className="text-sm font-medium text-primary">Renewable Energy Certificates</span>
+                <Zap className="h-4 w-4 text-primary mr-2" />
+                <span className="text-sm font-medium text-primary">Performance Optimization</span>
               </div>
               <h2 className="text-3xl font-display font-bold text-gray-900 mb-6">
-                Maximize Value from Your RECs
+                Maximize Solar Output with Advanced Technologies
               </h2>
               <p className="text-gray-600 mb-4">
-                Our REC management services help you optimize the value of your renewable energy certificates 
-                through strategic trading, compliance management, and portfolio optimization.
+                Our AI-driven optimization solutions help you achieve maximum efficiency and output from your solar installations through smart maintenance and advanced monitoring technologies.
               </p>
               <p className="text-gray-600 mb-6">
-                With deep knowledge of European REC markets and regulatory requirements, we ensure you're 
-                maximizing returns while maintaining full compliance.
+                By implementing predictive maintenance and optimized cleaning schedules, we help you prevent issues before they arise and ensure peak performance year-round.
               </p>
               
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Our REC Services Include:</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Optimization Services Include:</h3>
               <ul className="list-disc pl-6 mb-8 space-y-2 text-gray-600">
-                <li>Strategic REC trading and market intelligence</li>
-                <li>Compliance management and reporting</li>
-                <li>Portfolio optimization for maximum returns</li>
-                <li>Market forecasting and trend analysis</li>
-                <li>Regulatory strategy and advocacy</li>
+                <li>AI-driven cleaning and maintenance scheduling</li>
+                <li>Robotic cleaning systems that reduce water usage</li>
+                <li>Panel-level monitoring and predictive maintenance</li>
+                <li>Solar tracking systems optimized for European latitudes</li>
               </ul>
               
               <Button className="bg-primary hover:bg-primary/90">
-                Contact for REC Services
+                Request Optimization Consultation
               </Button>
             </div>
             
             <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Renewable Energy Certificates" 
+                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  alt="Solar Panel Optimization" 
                   className="rounded-lg w-full h-auto"
                 />
               </div>
@@ -74,15 +70,15 @@ const ServicesPage = () => {
         </div>
       </section>
       
-      {/* Consulting Section */}
-      <section id="consulting" className="py-16 bg-gray-50">
+      {/* Financial Technology Solutions Section */}
+      <section id="fintech" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Sustainability Consulting" 
+                  src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  alt="Financial Technology Solutions" 
                   className="rounded-lg w-full h-auto"
                 />
               </div>
@@ -92,31 +88,30 @@ const ServicesPage = () => {
             <div className="order-1 lg:order-2">
               <div className="inline-flex items-center rounded-full bg-secondary/10 px-4 py-1 mb-6">
                 <FileChartColumnIncreasing className="h-4 w-4 text-secondary mr-2" />
-                <span className="text-sm font-medium text-secondary">Sustainability Consulting</span>
+                <span className="text-sm font-medium text-secondary">Financial Technology Solutions</span>
               </div>
               <h2 className="text-3xl font-display font-bold text-gray-900 mb-6">
-                Turn Sustainability into Profit
+                Advanced Trading and Revenue Management
               </h2>
               <p className="text-gray-600 mb-4">
-                Our consulting services help you identify, develop, and monetize sustainability initiatives 
-                across your organization, ensuring environmental responsibility drives business value.
+                Our cutting-edge financial technology solutions enable new revenue streams and optimize 
+                existing ones through innovative trading platforms and management systems.
               </p>
               <p className="text-gray-600 mb-6">
-                From carbon reduction strategies to circular economy implementation, we provide actionable 
-                guidance with a clear focus on ROI and financial returns.
+                From peer-to-peer energy trading to automated PPA marketplaces, we provide the tools 
+                you need to maximize the financial returns from your renewable energy assets.
               </p>
               
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Consulting Services Include:</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Our FinTech Services Include:</h3>
               <ul className="list-disc pl-6 mb-8 space-y-2 text-gray-600">
-                <li>Sustainability opportunity assessments</li>
-                <li>ROI analysis and financial modeling</li>
-                <li>Implementation roadmaps and execution support</li>
-                <li>Sustainability reporting and communication</li>
-                <li>Regulatory compliance strategies</li>
+                <li>Blockchain-based peer-to-peer energy trading platforms</li>
+                <li>Automated power purchase agreement (PPA) marketplaces</li>
+                <li>Software for real-time yield optimization and revenue management</li>
+                <li>Carbon offset certification and trading systems</li>
               </ul>
               
               <Button className="bg-secondary hover:bg-secondary/90">
-                Schedule a Consultation
+                Explore FinTech Solutions
               </Button>
             </div>
           </div>

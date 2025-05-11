@@ -3,27 +3,29 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Leaf, Zap, FileChartColumnIncreasing, PanelTop } from "lucide-react";
 import { Link } from "react-router-dom";
+
 const services = [{
   title: "Planning and Permits Consulting",
   description: "Navigate lengthy approval processes (2-5 years in countries like Germany), inconsistent EU regulations, NIMBY issues, and complex environmental impact assessments.",
   icon: <FileChartColumnIncreasing className="h-6 w-6 text-primary" />,
   link: "/services#consulting"
 }, {
-  title: "Renewable Energy Certificates",
-  description: "Maximize value from RECs with our specialized trading and optimization platforms, ensuring compliance and revenue generation.",
-  icon: <Leaf className="h-6 w-6 text-primary" />,
-  link: "/services#rec"
-}, {
-  title: "AI-powered Performance Optimization Tools",
+  title: "Performance Optimization",
   description: "Leverage AI-driven cleaning scheduling, robotic cleaning systems, panel-level monitoring, and solar tracking systems optimized for European latitudes.",
   icon: <Zap className="h-6 w-6 text-primary" />,
-  link: "/services#software"
+  link: "/services#optimization"
+}, {
+  title: "Financial Technology Solutions",
+  description: "Access blockchain-based energy trading, automated PPA marketplaces, real-time yield optimization, and carbon offset certification systems.",
+  icon: <Leaf className="h-6 w-6 text-primary" />,
+  link: "/services#fintech"
 }, {
   title: "Grid Connection & Integration",
   description: "Solutions for limited grid capacity in rural areas, expensive connection costs, constraints during peak generation, and balancing intermittent generation with grid demands.",
   icon: <PanelTop className="h-6 w-6 text-primary" />,
   link: "/services#monetization"
 }];
+
 const Services = () => {
   return <section id="services" className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,4 +64,5 @@ const Services = () => {
       </div>
     </section>;
 };
+
 export default Services;
