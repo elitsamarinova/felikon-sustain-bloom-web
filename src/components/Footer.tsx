@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Leaf } from "lucide-react";
 const Footer = () => {
@@ -76,7 +77,7 @@ const Footer = () => {
         <div className="border-t border-gray-200 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-500">
-              &copy; {currentYear} Felikon. All rights reserved.
+              &copy; {currentYear} Felicon. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-sm text-gray-500 hover:text-primary transition-colors">

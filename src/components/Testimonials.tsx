@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    quote: "Felikon's expertise in REC management has significantly increased our return on renewable investments while ensuring full regulatory compliance.",
+    quote: "Felicon's expertise in REC management has significantly increased our return on renewable investments while ensuring full regulatory compliance.",
     name: "Elena Petrova",
     title: "Sustainability Director, EnergiaBG",
     image: "https://i.pravatar.cc/100?img=1"
@@ -15,7 +15,7 @@ const testimonials = [
     image: "https://i.pravatar.cc/100?img=2"
   },
   {
-    quote: "The energy monitoring software Felikon developed for us has provided unprecedented visibility into our consumption patterns and optimization opportunities.",
+    quote: "The energy monitoring software Felicon developed for us has provided unprecedented visibility into our consumption patterns and optimization opportunities.",
     name: "Sophia Dimitrova",
     title: "Operations Manager, Eco Industries",
     image: "https://i.pravatar.cc/100?img=3"
