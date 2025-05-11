@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -34,7 +35,7 @@ const AboutPage = () => {
             
             <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-2 z-10 relative">
-                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sustainable Landscape" className="rounded-lg w-full h-auto" />
+                <img src="/lovable-uploads/346ce268-8b11-4a98-acf3-a8e5c7824772.png" alt="Solar panels under night sky" className="rounded-lg w-full h-auto" />
               </div>
               <div className="absolute -z-10 bottom-6 -left-6 w-full h-full bg-primary/10 rounded-lg"></div>
             </div>

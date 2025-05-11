@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 const stats = [{
@@ -20,7 +21,7 @@ const About = () => {
           <div className="lg:w-1/2 lg:pr-12 mb-10 lg:mb-0">
             <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-3 z-10 relative">
-                <img alt="Renewable Energy Solutions" className="rounded-lg w-full h-auto" src="/lovable-uploads/ed58be0b-c20d-4836-8059-5b803861c758.jpg" />
+                <img alt="Solar panels under night sky" className="rounded-lg w-full h-auto" src="/lovable-uploads/346ce268-8b11-4a98-acf3-a8e5c7824772.png" />
               </div>
               <div className="absolute -z-10 top-6 -right-6 w-full h-full bg-primary/10 rounded-lg"></div>
             </div>
