@@ -1,29 +1,10 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Leaf, Factory, BatteryFull, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
-const teamMembers = [{
-  name: "Alexander Petrov",
-  title: "CEO & Founder",
-  bio: "With 15+ years in renewable energy markets, Alexander brings deep expertise in sustainability monetization.",
-  image: "https://i.pravatar.cc/300?img=11"
-}, {
-  name: "Maria Ivanova",
-  title: "Chief Technology Officer",
-  bio: "Energy software expert pioneering solutions that turn data into profitable sustainability insights.",
-  image: "https://i.pravatar.cc/300?img=12"
-}, {
-  name: "Stefan Dimitrov",
-  title: "Director of Consulting",
-  bio: "Former regulator with extensive knowledge of European RECs and sustainability compliance requirements.",
-  image: "https://i.pravatar.cc/300?img=13"
-}, {
-  name: "Nina Georgieva",
-  title: "Head of Client Success",
-  bio: "Dedicated to ensuring our clients achieve measurable ROI from their sustainability initiatives.",
-  image: "https://i.pravatar.cc/300?img=14"
-}];
+
 const AboutPage = () => {
   return <div className="min-h-screen">
       <Navbar />
@@ -117,31 +98,6 @@ const AboutPage = () => {
                 We measure our success by the tangible financial benefits our clients realize from sustainability.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Team Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-display font-bold text-gray-900 mb-6">
-              Meet Our Team
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Experts in renewable energy, sustainability, technology, and finance.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100">
-                <img src={member.image} alt={member.name} className="w-full h-64 object-cover object-center" />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-primary text-sm font-medium mb-4">{member.title}</p>
-                  <p className="text-gray-600">{member.bio}</p>
-                </div>
-              </div>)}
           </div>
         </div>
       </section>
