@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -13,9 +12,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl font-display font-bold text-gray-900 mb-6 leading-tight">About Felicon</h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Pioneers in renewable energy solutions and sustainability monetization in Bulgaria and across Europe.
-            </p>
+            <p className="text-xl text-gray-600 mb-8">Pioneers in renewable energy solutions and solar monetisation in Bulgaria and across Europe.</p>
           </div>
         </div>
       </section>
