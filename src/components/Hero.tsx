@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Leaf, TrendingUp, Factory } from "lucide-react";
@@ -39,7 +40,7 @@ const Hero = () => {
                 </div>
                 <p className="ml-3 text-sm text-gray-600">
                   <span className="font-semibold text-gray-900 block">Maximize ROI</span>
-                  on sustainability investments
+                  on solar investments
                 </p>
               </div>
               
