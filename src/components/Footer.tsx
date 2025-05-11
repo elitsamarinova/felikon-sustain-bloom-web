@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Leaf } from "lucide-react";
 const Footer = () => {
@@ -58,16 +59,6 @@ const Footer = () => {
               <li>
                 <Link to="/about" className="text-gray-600 hover:text-primary transition-colors">
                   About Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/careers" className="text-gray-600 hover:text-primary transition-colors">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-gray-600 hover:text-primary transition-colors">
-                  Blog
                 </Link>
               </li>
             </ul>
