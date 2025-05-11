@@ -106,7 +106,7 @@ const AboutPage = () => {
           <div className="bg-gradient-to-r from-secondary to-primary rounded-2xl text-white p-8 sm:p-12">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-display font-bold mb-6">Ready to Optimise Solar?</h2>
-              <p className="text-xl text-white/80 mb-8">Contact our team to discover how Felicon can help transform your sustainability efforts into profitable ventures.</p>
+              <p className="text-xl text-white/80 mb-8">Contact our team to discover how Felicon can help transform your solar management challeng into profit.</p>
               <Button size="lg" variant="secondary" className="bg-white text-secondary hover:bg-white/90">
                 <Link to="/contact">Get In Touch</Link>
               </Button>
